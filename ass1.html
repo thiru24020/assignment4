@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    table{
+        border: 1px solid black;
+        width: 700px;
+        height: 400px;
+        margin: auto;
+    }
+    td{
+        
+        color: black;
+        padding: 5px;
+    }
+    caption{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        height: 50px;
+        
+    }
+
+</style>
+<body>
+    <table border="1">
+        <caption style="border: 2px solid black;">Registration Form</caption>
+        
+        <form>
+        
+        <tr>
+        <td><Label>Student Name</Label></td>
+        <td><input type="text" name="Studentname" value="" placeholder="Student Name"></td></tr><br>
+        <tr><td><Label>Father Name</Label></td>
+        <td><input type="text" name="Fathername" value="" placeholder="Father Name"></td></tr><br>
+        <tr><td><Label>Mother Name</Label></td>
+        <td><input type="text" name="Mothername" value="" placeholder="Mother Name" ></td></tr><br>
+        <tr><td><Label>Date Of Birth</Label></td>
+        <td><input type="date" name="DOB" value="" placeholder="Date Of Birth"></td></tr><br>
+        <tr><td><label>Gender</label></td>
+        <td><input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="FeMale">FeMale </td></tr><br>
+        <tr><td><label>Email ID</label></td>
+        <td><input type="email" name="Email" value="" placeholder="Email" ></td></tr><br>
+        <tr><td><label>Address</label></td>
+        <td><textarea name="address" cols="30" rows="3" placeholder="Address"></textarea></td></tr><br>
+        <tr><td><Label>State</Label></td>
+        <td><input type="text" name="State" value="" placeholder="State"></td></tr><br>
+        <tr><td><Label>City</Label></td>
+        <td><input type="text" name="City" value="" placeholder="City"></td></tr><br>
+        <td colspan="2" style="text-align:center;"><input type="submit" value="Submit"></td>
+        </form>
+    </table>
+    
+</body>
+</html>
